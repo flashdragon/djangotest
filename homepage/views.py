@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 from collections import Counter
 import matplotlib as plt
-import fcntl
 # Create your views here.
 def home(request):
     return render(request,'home.html',)
